@@ -9,7 +9,8 @@ const ip = "123.123.123.123"
 
 
 
-
+const routes = require('./src/routers')
+app.use(routes)
 
 app.listen(port, () => {
     console.log(`
